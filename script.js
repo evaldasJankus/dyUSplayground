@@ -180,7 +180,89 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }
 
-
     if (pageType === 'HOMEPAGE') DYupdate('HOMEPAGE', []);
     if (pageType === 'OTHER') DYupdate('OTHER', ['about']);
 });
+
+// ---- Generalized Cookie Utilities ----
+
+/**
+ * Reads a cookie by name and returns parsed value (if JSON), or raw string.
+ */
+function getCookie(name) {
+    const cookie = document.cookie.split('; ').find(row => row.startsWith(name + '='));
+    if (!cookie) return null;
+
+    try {
+        return JSON.parse(decodeURIComponent(cookie.split('=')[1]));
+    } catch {
+        return decodeURIComponent(cookie.split('=')[1]);
+    }
+}
+
+/**
+ * Sets a cookie with JSON/string value and expiry (in milliseconds from now)
+ */
+function setCookie(name, value, durationMs) {
+    const expires = new Date(Date.now() + durationMs).toUTCString();
+    const val = typeof value === "object" ? encodeURIComponent(JSON.stringify(value)) : encodeURIComponent(value);
+    document.cookie = `${name}=${val}; expires=${expires}; path=/`;
+}
+
+/**
+ * Checks whether a cookie is expired (if stored with an `expires` timestamp)
+ */
+function isCookieExpired(cookieValue) {
+    if (!cookieValue || typeof cookieValue !== "object" || !cookieValue.expires) return true;
+    return Date.now() > cookieValue.expires;
+}
+
+/**
+ * Generic handler for DY-related or other cookies.
+ */
+function handleDYCookie(name, sourceGetter, durationMs = 30 * 60 * 1000) {
+    const existing = getCookie(name);
+    const now = Date.now();
+
+    if (existing && !isCookieExpired(existing)) {
+        // Update expiry only
+        existing.expires = now + durationMs;
+        setCookie(name, existing, durationMs);
+        return;
+    }
+
+    const newValue = sourceGetter?.();
+    if (newValue) {
+        const cookieObj = { value: newValue, expires: now + durationMs };
+        setCookie(name, cookieObj, durationMs);
+        console.log(`Cookie '${name}' set:`, cookieObj);
+    } else {
+        console.warn(`Cannot set cookie '${name}' — source unavailable.`);
+    }
+}
+
+function waitForDYCookies(retries = 10, delay = 100) {
+    if (window.DY && DY.dyid && DY.jsession) {
+        // Example 1: DY dyid cookie
+        handleDYCookie('_dyid', () => DY.dyid, 2592000000);
+        handleDYCookie('_dyid_server', () => DY.dyid, 2592000000);
+
+        // Example 2: DY jsession cookie
+        handleDYCookie('_dyjsession', () => DY.jsession, null);
+
+        // Example 3: DY _dyid_server cookie
+        // handleDYCookie('_dyid_server', () => DY.jsession, null);
+
+        // You can easily add more like:
+        // handleDYCookie('dy_userid', () => DY.userId);
+    } else if (retries > 0) {
+        setTimeout(() => waitForDYCookies(retries - 1, delay), delay);
+    } else {
+        console.warn("DY not ready after waiting.");
+    }
+}
+
+window.addEventListener('load', () => {
+    waitForDYCookies();
+});
+
