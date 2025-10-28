@@ -206,7 +206,7 @@ function getCookie(name) {
 function setCookie(name, value, durationMs) {
     const expires = new Date(Date.now() + durationMs).toUTCString();
     // const val = typeof value === "object" ? encodeURIComponent(JSON.stringify(value)) : encodeURIComponent(value);
-    document.cookie = `${name}=${val}; expires=${expires}; path=/`;
+    document.cookie = `${name}=${value}; expires=${expires}; path=/`;
 }
 
 /**
