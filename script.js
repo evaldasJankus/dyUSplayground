@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 `Selected Categories: ${selectedCategories.join(', ')}` :
                 'No categories selected';
 
-            DYupdate('CATEGORY', selectedCategories);
+            DYupdate('CATEGORY', [...selectedCategories]);
 
             // Render placeholders
             let html = '';

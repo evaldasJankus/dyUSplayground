@@ -1,0 +1,10 @@
+// Function to update DY.recommendationContext safely
+const DYupdate = (type, data = []) => {
+    // Reassign whole object instead of mutating
+    window.DY = window.DY || {};
+    window.DY.recommendationContext = Object.freeze({
+        type,
+        data: Array.isArray(data) ? [...data] : [data] // clone array to avoid mutation
+    });
+    // console.log('DY context updated:', window.DY.recommendationContext);
+};
