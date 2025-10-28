@@ -205,8 +205,22 @@ function getCookie(name) {
  */
 function setCookie(name, value, durationMs) {
     const expires = new Date(Date.now() + durationMs).toUTCString();
+    let cookieStr = `${name}=${value}; path=/; SameSite=Lax`;
+
+    // Add expiration only if duration is provided
+  if (durationMs && !isNaN(durationMs)) {
+    const expires = new Date(Date.now() + durationMs).toUTCString();
+    cookieStr += `; expires=${expires}`;
+  }
+
+  // Always add domain and secure flags if appropriate
+  if (location.protocol === 'https:') {
+    cookieStr += '; Secure';
+  }
+
+
     // const val = typeof value === "object" ? encodeURIComponent(JSON.stringify(value)) : encodeURIComponent(value);
-    document.cookie = `${name}=${value.value}; expires=${expires}; path=/`;
+    document.cookie = cookieStr;
 }
 
 /**
@@ -248,7 +262,7 @@ function waitForDYCookies(retries = 10, delay = 100) {
         handleDYCookie('_dyid_server', () => DY.dyid, 2592000000);
 
         // Example 2: DY jsession cookie
-        handleDYCookie('_dyjsession', () => DY.jsession, null);
+        handleDYCookie('_dyjsession', () => DY.jsession, session);
 
         // Example 3: DY _dyid_server cookie
         // handleDYCookie('_dyid_server', () => DY.jsession, null);
