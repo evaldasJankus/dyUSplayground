@@ -234,7 +234,7 @@ function isCookieExpired(cookieValue) {
 /**
  * Generic handler for DY-related or other cookies.
  */
-function handleDYCookie(name, sourceGetter, durationMs = 30 * 60 * 1000) {
+function handleDYCookie(name, sourceGetter, durationMs = null) {
     const existing = getCookie(name);
     const now = Date.now();
 
@@ -262,7 +262,7 @@ function waitForDYCookies(retries = 10, delay = 100) {
         handleDYCookie('_dyid_server', () => DY.dyid, 2592000000);
 
         // Example 2: DY jsession cookie
-        handleDYCookie('_dyjsession', () => DY.jsession, session);
+        handleDYCookie('_dyjsession', () => DY.jsession);
 
         // Example 3: DY _dyid_server cookie
         // handleDYCookie('_dyid_server', () => DY.jsession, null);
