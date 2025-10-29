@@ -262,7 +262,7 @@ function waitForDYCookies(retries = 10, delay = 100) {
         handleDYCookie('_dyid_server', () => DY.dyid, 2592000000);
 
         // Example 2: DY jsession cookie
-        handleDYCookie('_dyjsession', () => DY.jsession, 18000)
+        handleDYCookie('_dyjsession', () => DY.jsession, 1800000)
 
     } else if (retries > 0) {
         setTimeout(() => waitForDYCookies(retries - 1, delay), delay);
