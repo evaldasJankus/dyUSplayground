@@ -204,8 +204,8 @@ function getCookie(name) {
  * Sets a cookie with JSON/string value and expiry (in milliseconds from now)
  */
 function setCookie(name, value, durationMs) {
-    const expires = new Date(Date.now() + durationMs).toUTCString();
-    let cookieStr = `${name}=${value}; path=/; SameSite=Lax`;
+    // const expires = new Date(Date.now() + durationMs).toUTCString();
+    let cookieStr = `${name}=${value.value}; path=/; SameSite=Lax`;
 
     // Add expiration only if duration is provided
   if (durationMs && !isNaN(durationMs)) {
