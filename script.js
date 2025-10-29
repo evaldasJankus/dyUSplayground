@@ -262,13 +262,8 @@ function waitForDYCookies(retries = 10, delay = 100) {
         handleDYCookie('_dyid_server', () => DY.dyid, 2592000000);
 
         // Example 2: DY jsession cookie
-        handleDYCookie('_dyjsession', () => DY.jsession);
+        handleDYCookie('_dyjsession', () => DY.jsession, 18000)
 
-        // Example 3: DY _dyid_server cookie
-        // handleDYCookie('_dyid_server', () => DY.jsession, null);
-
-        // You can easily add more like:
-        // handleDYCookie('dy_userid', () => DY.userId);
     } else if (retries > 0) {
         setTimeout(() => waitForDYCookies(retries - 1, delay), delay);
     } else {
