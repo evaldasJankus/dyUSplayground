@@ -1,0 +1,53 @@
+sku,group_id,name,price,categories,keywords,url,image_url,in_stock
+0000001,BW0001,Black Wolf stare,10.00,black,black|wild,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/bb/bf/aa/bbbfaab8eb22efe4375f6bc702822492.jpg,true
+0000002,BW0002,Black Wolf 3,11.00,black,black|wild,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/73/da/6c/73da6c1f906c7c0ae684009e68b7568d.jpg,true
+0000003,BW0001,Black Wolf 2,12.00,black,black|wild,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/2b/69/b8/2b69b82f82297686b632b70164f5585f.jpg,true
+0000004,BW0002,Paint Black Wolf howling,13.00,black,black|wild|painting,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/2b/35/c2/2b35c236ae59a5bdc1d8dac84a123917.jpg,true
+0000005,WW0001,White Wolf stare,14.00,white,white|wild|winter,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/f6/af/5e/f6af5e4eb3bf45934eff4f1195412108.jpg,true
+0000006,WW0002,Red Wolf eyes,15.00,white,white|wild|redeyes,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/2a/92/f9/2a92f96f800008d69d22427ce13931d9.jpg,true
+0000007,WW0002,Red Wolf eyes 2,16.00,white,white|wild|redeyes,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/750x/3f/15/3d/3f153df8ec8a95322e9f467a089e281c.jpg,true
+0000008,WW0001,Wolf stare grey color,17.00,white,white|wild,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/2f/01/8e/2f018ec31b38aefe58a045d828a950eb.jpg,true
+0000009,BW0003,Small Wolf blue eyes,18.00,black,black|blueeyes,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/76/e0/d2/76e0d22e9d0d89dc2982369b45a73d5c.jpg,true
+0000010,WW0001,Wolf stare blood,19.00,white,white|angry,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/d3/a0/79/d3a079e36470087b0f818b23434fb12b.jpg,true
+0000011,WW0003,Small wolf,20.00,grey,white|happy,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/45/0d/28/450d2859d229492e96409ea26e5f8548.jpg,true
+0000012,GW0003,grey Wolf wet,10.00,grey,grey|wild,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/2a/ff/8c/2aff8cba54e9f0cd1467f1930888216a.jpg,true
+0000013,BW0003,Black Wolf Fire eyes,11.00,black,black|fireeyes,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/3a/1b/a6/3a1ba66cf638e364938fbc236a87074e.jpg,true
+0000014,GW0003,Group grey wolfs,12.00,grey,grey|wild|angry|group,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/04/b9/24/04b92449c6bbcf8bbb30db5fa57ed235.jpg,true
+0000015,GW0002,grey wolf drinking,13.00,grey,grey|wild|drinking,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/48/48/b1/4848b1c6e8979394380491eb25d78176.jpg,true
+0000016,GW0003,grey wolf yellow eyes,14.00,grey,grey|wild|painting,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/f8/32/aa/f832aae9fbfcf3c558a373cf41221090.jpg,true
+0000017,PW0002,Painting: Red Wolf eyes,15.00,painting,white|wild|redeyes|painting,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/77/9b/69/779b695c4cb36dc2d0ab2b35ce777a66.jpg,true
+0000018,SW0002,grey wolf Reflextion,16.00,grey,grey|reflextion,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/40/8c/5f/408c5f952ddeb0df727c9360ec5d696b.jpg,true
+0000019,PW0001,Paiting Angry grey wolf,17.00,grey,grey|wild|angry,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/bb/47/f1/bb47f117679aeef4481f809ca31952be.jpg,true
+0000020,PW0004,Shining wolf painting,18.00,glow,glow|painting|shining,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/736x/cc/cf/d0/cccfd035d363641d9151098070665144.jpg,true
+0000021,PW0001,Master of the Woods,19.00,black|woods,black|painting|woods|master,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/ee/c6/06/eec6064a70545bdad00c3d75c3a711df.jpg,true
+0000022,PW0005,White Master of the Woods,20.00,white,white|painting|woods|master,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/9e/95/04/9e950483ef36464aa88d67bad5a73de3.jpg,true
+0000023,WW0005,White Wolf stare,10.00,white,white|woods,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/db/61/41/db61419118b96188b19117ec75156375.jpg,true
+0000034,PW0007,grey Wolf howling painting,10.00,grey,grey|moon|howling,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/68/7e/74/687e74b71aef63995dd529b9ae971310.jpg,true
+0000024,GW0008,grey Wolf stare,11.00,grey,grey|painting,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/19/db/71/19db718ddee1535c39d8697c6bd1c10e.jpg,true
+0000025,WW0001,Winter wolf snow,12.00,white|snow,black|wild|winter,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/cf/1c/04/cf1c04097b5319386c48298ecffce651.jpg,true
+0000027,WW0010,White Wolf angry,14.00,white,white|wild|angry,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/ea/fa/c5/eafac541552bd7b278e234fc2af661b4.jpg,true
+0000026,WW0002,Paint White Wolf red eyes Master,13.00,white,white|redeyes|master|painting,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/fa/21/cf/fa21cf63389a0d6091e1e9df94caa402.jpg,true
+0000028,MW0002,Mix wolfs,15.00,white|black|red,white|mix|redeyes|painting,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/c0/be/fe/c0befe27b1825ed1e0e0b801ae1fac30.jpg,true
+0000031,BW0012,Black Wolf red eyes 5,18.00,black,black|redeyes,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/f3/b0/0e/f3b00eaf5d78386029187ed98a1b2ae6.jpg,true
+0000029,MW0012,Mix Black White,16.00,white|black,white|mix|black|wild,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/c8/3b/21/c83b218ddafb7b908d70930ddf6e7397.jpg,true
+0000030,PW0015,Painting group hun in the forest,17.00,grey|group,grey|angry|group|wild,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/83/72/0a/83720a63ab24b436897f5c499c19d11f.jpg,true
+0000032,WW0011,Royal white wolf,19.00,white,white|royal|blueeyes,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/05/a1/70/05a1705a4181ed892302cc4e391a1b28.jpg,true
+0000033,PW0013,Deep look Yellow eyes,20.00,grey,white|yelloweyes|painting,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/c9/c1/e6/c9c1e6df0bcae5a6b9570b4dfe373e98.jpg,true
+0000035,PW0020,grey wolf angry Scar,11.00,grey|woods,grey|angry|scar|fireeyes,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/9f/01/c3/9f01c3d8a7630e8c12ca52df66316bae.jpg,true
+0000036,LW0003,Wolfs Love,12.00,grey|black,grey|black|love|group,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/7f/f5/9a/7ff59a4fe5a3d9ab03ba4dff451d76b9.jpg,true
+0000037,WW0022,Royal white wolf,13.00,white,white|roayl|wild|mountain,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/b4/d4/93/b4d493a8a2008659a2be3ca9387a88f7.jpg,true
+0000038,PW0033,grey wolf yellow eyes Mountains,14.00,grey,grey|wild|yelloweyes|painting,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/02/5f/f4/025ff4bb1e07988e9ab06999aa93c0a1.jpg,true
+0000039,PW0011,Painting: White Wolf Yellow eyes,15.00,painting,white|angry|yelloweyes|painting,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/14/86/49/148649bff5b7c18a27eea47a3f3bf28f.jpg,true
+0000040,PW0022,Wolf in the Rain,16.00,black,black|rain|woods,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/7b/05/00/7b0500e09e522379fd68521abbabf917.jpg,true
+0000041,BW0023,Black Wolf Mountain,17.00,black,black|wild|mountain,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/736x/c7/56/c4/c756c422b3e9ddc276effaffbc969721.jpg,true
+0000042,SW0014,Small wolfy in the Forest,18.00,woods,small|woods,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/60/70/45/60704548a7fce152219160bdd5cf0411.jpg,true
+0000043,WW0111,Black Wolf Savana,19.00,black|savana,black|painting|savana,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/48/a1/e2/48a1e2f0020ddf991d54e0a00d1048a7.jpg,true
+0000044,PW0055,Wolf Woods Drinkias,30.00,grey,white|painting|woods|drinking,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/47/b6/3c/47b63cb74e937cfac7b32dbb35b2d33f.jpg,true
+0000045,RW0001,Red wolf forest,12.99,red,redWolf|snow|mountain|castle,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/38/6d/fd/386dfd5d2fe34f6e0f38acea891dbaf0.jpg,true
+0000046,RW0001,Black Sun and Red wolf,14.99,red,redWolf|mountain|blackSun,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/564x/c4/4e/9b/c44e9bc31abb5ba83797579f9ff0d984.jpg,true
+0000047,BW0003,Wolf in the Foresrt,14.77,brown|forest,wood|brown,https://dy-eu-playground.onrender.com/index.html,https://imgcdn.stablediffusionweb.com/2024/3/17/5bba4572-96e2-49c7-ab83-2344ee729080.jpg,true
+0000048,GW0004,Indian Wolf,6.13,brown|feather,brown|indian|feather,https://dy-eu-playground.onrender.com/index.html,https://imgcdn.stablediffusionweb.com/2024/12/4/21fc0916-831b-4981-8a1c-41021649b0c1.jpg,true
+0000049,GW0005,Wolf in the forest autum,12.67,grey|autumn|forest,grey|forest|autum,https://dy-eu-playground.onrender.com/index.html,https://png.pngtree.com/thumb_back/fw800/background/20230424/pngtree-big-wolf-in-the-forest-with-leaves-surrounding-it-image_2558720.jpg,true
+0000050,GW0005,Wolf in the forest autum,14.67,grey|autumn|forest,grey|forest|autum,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/736x/88/21/2e/88212e4329d3535a1edf4162ae12cbf2.jpg,true
+0000051,BW0006,Blue wolf in flames,33.99,blue|flames,blue|flames|white wolf,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/736x/bd/08/6d/bd086d6e86aaf41097320e4fef44e083.jpg,true
+0000052,BW0007,Black wolf with flower,12.99,black,black|flower|black wolf,https://dy-eu-playground.onrender.com/index.html,https://i.pinimg.com/736x/d9/3f/33/d93f3368291e671d1824d1c06b3d175b.jpg,true
