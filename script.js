@@ -154,6 +154,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         <div class="product-details">
           <h3>${product.name}</h3>
           <p>Price: $${product.price}</p>
+          <p></strong>Creator:</strong> <em>$${product.author}</em></p>
         </div>
       </div>
       <hr class="separator"/>
@@ -180,10 +181,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }
 
+
     if (pageType === 'HOMEPAGE') DYupdate('HOMEPAGE', []);
     if (pageType === 'OTHER') DYupdate('OTHER', ['about']);
 });
-
 // ---- Generalized Cookie Utilities ----
 
 /**
@@ -199,7 +200,6 @@ function getCookie(name) {
         return decodeURIComponent(cookie.split('=')[1]);
     }
 }
-
 /**
  * Sets a cookie with JSON/string value and expiry (in milliseconds from now)
  */
@@ -273,4 +273,5 @@ function waitForDYCookies(retries = 10, delay = 100) {
 window.addEventListener('load', () => {
     waitForDYCookies();
 });
+
 
