@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Load CSV
     const csvText = await fetch('products.csv').then(res => res.text());
-    const [headerLine, ...lines] = csvText.trim().split('\n');
+    const [headerLine, ...lines] = csvText.trim().split('\r\n');
     const headers = headerLine.split(',');
 
     products = lines.map(line => {
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         <div class="product-details">
           <h3>${product.name}</h3>
           <p>Price: $${product.price}</p>
-          <p></strong>Creator:</strong> <em>$${product.author}</em></p>
+          <p><strong>Creator:</strong> <em>${product.author}</em></p>
         </div>
       </div>
       <hr class="separator"/>
